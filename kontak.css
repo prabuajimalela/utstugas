@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    background-color: #eaeaea;
+  }
+  
+  header {
+    background: #e23030;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header img {
+    margin-right: auto;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+    justify-content: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  .logo:hover {
+    scale: rotate (2deg);
+    transform: rotate(2deg);
+  }
+  
+  nav ul {
+    display: flex;
+    padding: 20px;
+    
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav ul {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 8px;
+  }
+  
+  li a {
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: bold;
+    
+  }
+  
+  li a:hover {
+    color:  aqua;
+    transform: rotate(2deg);
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .contact-us {
+    padding: 80px 0;
+   
+    margin-left: 50px;
+  }
+  
+  .contact-us h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .contact-us p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-us form {
+    margin-bottom: 30px;
+  }
+  
+  .contact-us form .form-control {
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    
+  }
+  
+  .contact-us form textarea {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  
+  .contact-us button {
+    border-radius: 0;
+    border: none;
+    background-color: #F7D154;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .contact-us button:hover {
+    background-color: #FFA500;
+    color: #fff;
+  }
+  
+  .contact-us h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .contact
+  

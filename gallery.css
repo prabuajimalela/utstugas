@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    background-color: #eaeaea;
+  }
+  
+  header {
+    background: #e23030;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header img {
+    margin-right: auto;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+    justify-content: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  .logo:hover {
+    scale: rotate (2deg);
+    transform: rotate(2deg);
+  }
+  
+  nav ul {
+    display: flex;
+    padding: 20px;
+    
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav ul {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 8px;
+  }
+  
+  li a {
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: bold;
+    
+  }
+  
+  li a:hover {
+    color:  aqua;
+    transform: rotate(2deg);
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+  }
+  
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid-item img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item h3 {
+    margin: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .grid-item p {
+    margin: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e2303036;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .grid-item:hover::before {
+    opacity: 1;
+  }
+  
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  

@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  header {
+    background: #e23030;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header img {
+    margin-right: auto;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+    justify-content: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  .logo:hover {
+    scale: rotate (2deg);
+    transform: rotate(2deg);
+  }
+  
+  nav ul {
+    display: flex;
+    padding: 20px;
+    
+   
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav ul {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 8px;
+  }
+  
+  li a {
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: bold;
+    
+  }
+  
+  li a:hover {
+    color:  aqua;
+    transform: rotate(2deg);
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+ 
+
+.img-artikel {
+    height: 500px;
+    background-image: url(img/kandang.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    margin-top: 50px;
+    border-top: 5px solid #eaeaea;
+    border-bottom: 5px solid #eaeaea;
+    
+}
+
+.banner h2{
+    text-align: center;
+    
+}
+
+.banner p {
+    margin: 20px 50px;
+}
+
+footer {
+    background-color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 40px 0;
+    color: #444;
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .footer-links a:hover {
+    color: #222;
+  }
+  
+  .footer-social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-social-media li {
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  .footer-social-media a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-social-media a:hover {
+    color: #e23030;
+  }
+  
+  
+  
+  .footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
